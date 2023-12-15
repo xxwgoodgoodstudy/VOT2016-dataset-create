@@ -14,3 +14,12 @@
 5、转到matlab运行process_seqs.m生成groundtruth.txt，包含旋转框四个角坐标信息
 
 6、运行gen_json.py生成VOT2016.json
+
+
+参考：
+
+矩形框转旋转框：https://zhuanlan.zhihu.com/p/59486758
+
+如何把数据集做成VOT2018竞赛的数据集那种格式：https://www.zhihu.com/question/334410652
+
+matlab代码：https://github.com/vojirt/bbox_from_segmentation
